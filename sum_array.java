@@ -11,6 +11,10 @@ public class sum_array {
         int avg= sum/a.length;
         System.out.println("Sum: "+sum);
         System.out.println("Average: "+avg);
-
+        // Print elements of the array
+        System.out.println("Array elements:");
+        for(int i=0;i<5;i++){
+            System.out.println(a[i]);
+        }
     }
 }
